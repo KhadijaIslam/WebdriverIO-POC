@@ -69,7 +69,7 @@ A: Yes (just press enter)
 
 Q: Do you want to add a service to your test setup?
 
-A: none (just press enter, let's skip this for simplicity)
+A: none (just press enter)
 
 Q: Level of logging verbosity:
 
