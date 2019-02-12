@@ -48,13 +48,14 @@ describe('Test Sharebar' , () => {
     assert.equal(linkedInTitle,'LinkedIn');
     browser.pause(1000);
     browser.switchWindow('Apple Share Price Tuesday September 9 - Business Insider');
+    browser.pause(2000);
     const flipboard = $('[data-e2e-name="share-link-flipboard"]');
     flipboard.click();
     browser.pause(2000);
-    browswer.switchWindow('Flip into magazine - logged out');
+    browser.switchWindow('Flip into magazine - logged out');
     browser.pause(2000);
     const flipboardTitle = browser.getTitle();
-    assert.equal(flipboardTitle,'Flipboard');
+    assert.equal(flipboardTitle,'Flip into magazine - logged out');
     browser.pause(5000);
   });
 });
