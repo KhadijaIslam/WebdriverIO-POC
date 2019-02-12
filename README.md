@@ -53,7 +53,7 @@ A: Yes (just press enter)
 
 Q: Do you want to run WebdriverIO commands synchronous or asynchronous?
 
-A: sync (just press enter, you can also run commands async and handle promises by yourself but for the sake of simplicity let's run them synchronously)
+A: sync just press enter
 
 Q: Where are your test specs located?
 
